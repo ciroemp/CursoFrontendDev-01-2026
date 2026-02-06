@@ -57,7 +57,7 @@ body {
 
 .tittle {
     font-size: var(--lg);
-    margin-bottom: 12px;
+    margin-bottom: 36px;
     text-align: center;
 }
 
@@ -100,9 +100,21 @@ body {
     font-size: var(--sm);
 }
 
+.input-email, .input-name, .input-password {
+    margin-bottom: 22px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
+}
+
+.form a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 54px;
 }
 
 .primary-button {
@@ -116,6 +128,24 @@ body {
     font-weight: bold;
     cursor: pointer;
     margin-top: 8px;
+}
+
+.secundary-button {
+    width: 100%;
+    height: 36px;
+    border: 1px solid var(--hospital-green);
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--hospital-green);
+    font-size: var(--md);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.secundary-button:hover {
+    background-color: var(--hospital-green);
+    color: var(--white);
 }
 
 .login-button {
